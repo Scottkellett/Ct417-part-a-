@@ -20,8 +20,8 @@
         </dependency>
         <dependency>
 	    <groupId>com.github.Scottkellett</groupId>
-	    <artifactId>Software-ENG-ct417-</artifactId>
-	    <version>07ead88cb2</version>
+	    <artifactId>CT417</artifactId>
+	    <version>master</version>
 	</dependency>
     </dependencies>
     <repositories>

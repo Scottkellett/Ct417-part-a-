@@ -21,7 +21,7 @@
         <dependency>
 	    <groupId>com.github.Scottkellett</groupId>
 	    <artifactId>Software-ENG-ct417-</artifactId>
-	    <version>master</version>
+	    <version>07ead88cb2</version>
 	</dependency>
     </dependencies>
     <repositories>

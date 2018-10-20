@@ -24,6 +24,12 @@ public class Module {
         Courses_Associated_With = Courses_associated_with;     
     }
 
+    public String getModule_name() {
+        return module_name;
+    }
+    
+    
+
     public void setStudents_Registered(ArrayList<Student> Students_Registered) {
         this.Students_Registered = Students_Registered;
     }

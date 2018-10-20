@@ -30,6 +30,10 @@ public class Course {
         Accademic_End_date = Aed;
     }
 
+    public String getCourse_name() {
+        return Course_name;
+    }
+
     public void setAccademic_Start_date(DateTime Accademic_Start_date) {
         this.Accademic_Start_date = Accademic_Start_date;
     }

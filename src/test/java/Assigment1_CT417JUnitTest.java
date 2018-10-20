@@ -38,7 +38,7 @@ public class Assigment1_CT417JUnitTest {
         
         assertEquals(expected_Username , result_username);
     }
-    //----------JUnit Test for Module testing: do ArrayLists Work 
+    //----------JUnit Test for Module testing: do ArrayLists Work
     @Test
     public void moduleTest(){
         

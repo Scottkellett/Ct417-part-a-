@@ -17,18 +17,18 @@ public class Student {
     private int Age;
     private int iD;
     private String Username;
-    private String Courses;
-    private String[] modules_registered_for;
+    private Course Course;
+    private Module[] modules_registered_for;
     
     DateTime Dob= new DateTime();
     
     
-    public Student(String name, int age, DateTime DOB, int ID,String courses , String[] MRF){
+    public Student(String name, int age, DateTime DOB, int ID,Course c , Module[] MRF){
         Name = name;
         Age = age;
         Dob = DOB;
         iD = ID;
-        Courses = courses;
+        Course = c;
         modules_registered_for= MRF;
         
     }

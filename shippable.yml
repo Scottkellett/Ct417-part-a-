@@ -1,9 +1,8 @@
---- 
+language: java
 JDK: "-openjdk8"
 branches: 
   only: "-master"
-build: ~
-language: java
+build: 
 on_success: 
-  - "mvn clean"
-  - "mvn test"
+    - "mvn clean"
+    - "mvn test"

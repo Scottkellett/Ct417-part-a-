@@ -1,0 +1,8 @@
+language: java
+JDK: -openjdk8
+branches: 
+  only: -master
+build: 
+on_success: 
+    - mvn clean
+    - mvn test
